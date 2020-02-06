@@ -973,7 +973,7 @@ root      2131  0.0  0.1 142832  2604 ?        Ssl  04:10   0:00 /usr/bin/conmon
 
 
 
-* Verify toolbox-root artifacts in RHCOS(Host OS)
+* Verify toolbox-root artefacts in RHCOS(Host OS)
 
 ~~~
 [root@localhost ~]# ls -l /var/tmp/sosreport-localhost-2020-02-06-girbyuy.tar.xz*
