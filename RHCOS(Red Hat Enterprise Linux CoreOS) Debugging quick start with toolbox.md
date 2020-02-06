@@ -124,7 +124,7 @@ Virtualization Software list:
 
 * Creation Virtual Machine using virt-manager (KVM environment)
 
-![image-20200206101905688](/home/jshin/.config/Typora/typora-user-images/image-20200206101905688.png)
+![image-20200206101905688](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206101905688.png)
 
 ~~~
 Virtual Machine Spec:
@@ -316,13 +316,13 @@ or other application using the libvirt API.
 
 * RHCOS VM Booting from RHCOS installation ISO #1
 
-![image-20200206103100223](/home/jshin/.config/Typora/typora-user-images/image-20200206103100223.png)
+![image-20200206103100223](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206103100223.png)
 
 
 
 * RHCOS VM Booting from RHCOS installation ISO #2
 
-![/usr](/home/jshin/.config/Typora/typora-user-images/image-20200206103158987.png)
+![/usr](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206103158987.png)
 
 
 
@@ -332,25 +332,25 @@ or other application using the libvirt API.
 /usr/libexec/coreos-installer -d vda -i http://192.168.122.1/repos/ingnition.json -b http://192.168.122.1/repos/rhcos-4.3.0-x86_64-metal.raw.gz
 ~~~
 
-![](/home/jshin/.config/Typora/typora-user-images/image-20200206103409794.png)
+![](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206103409794.png)
 
 
 
 * RHCOS Install completed and reboot system
 
-![image-20200206103600891](/home/jshin/.config/Typora/typora-user-images/image-20200206103600891.png)
+![image-20200206103600891](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206103600891.png)
 
 
 
 * Boot completed based on Root filesystems(Booting from DISK)
 
-![image-20200206103804662](/home/jshin/.config/Typora/typora-user-images/image-20200206103804662.png)
+![image-20200206103804662](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206103804662.png)
 
 
 
 * System login and checking system information
 
-![image-20200206104041850](/home/jshin/.config/Typora/typora-user-images/image-20200206104041850.png)
+![image-20200206104041850](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206104041850.png)
 
 
 
@@ -1113,7 +1113,7 @@ root      2131  0.0  0.1 142832  2604 ?        Ssl  04:10   0:00 /usr/bin/conmon
 
 * Accessing HTTPD web server from Out-side (Workstation<192.168.122.1> to HTTPD<192.168.122.220> )
 
-![image-20200206132454987](/home/jshin/.config/Typora/typora-user-images/image-20200206132454987.png)
+![image-20200206132454987](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206132454987.png)
 
 
 
@@ -1123,7 +1123,7 @@ root      2131  0.0  0.1 142832  2604 ?        Ssl  04:10   0:00 /usr/bin/conmon
 | :----------------------------------: | :---------------------------------: |
 | Web Access from workstation to HTTPD | Run "tcpdump -i enp1s0 tcp port 80" |
 
-![image-20200206132731759](/home/jshin/.config/Typora/typora-user-images/image-20200206132731759.png)
+![image-20200206132731759](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206132731759.png)
 
 
 
@@ -1135,7 +1135,7 @@ root      2131  0.0  0.1 142832  2604 ?        Ssl  04:10   0:00 /usr/bin/conmon
 | :----------------------------------: | :---------------------------------------------------------: |
 | Web Access from workstation to HTTPD | Live Packets capture result "tcpdump -i enp1s0 tcp port 80" |
 
-![image-20200206132812772](/home/jshin/.config/Typora/typora-user-images/image-20200206132812772.png)
+![image-20200206132812772](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206132812772.png)
 
 
 
@@ -1147,7 +1147,7 @@ root      2131  0.0  0.1 142832  2604 ?        Ssl  04:10   0:00 /usr/bin/conmon
 | :----------------------------------: | :-----------------------------------------: |
 | Web Access from workstation to HTTPD | Run "toolbox tcpdump -i enp1s0 tcp port 80" |
 
-![image-20200206132954375](/home/jshin/.config/Typora/typora-user-images/image-20200206132954375.png)
+![image-20200206132954375](/home/jshin/github/coreos-toolbox-quickstart/images/image-20200206132954375.png)
 
 
 
